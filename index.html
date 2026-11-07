@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="나누리 공인중개사 - 부동산 빅데이터, GIS 공간 분석 및 AI 활용 부동산 정보 서비스">
+  <title>나누리 공인중개사 | 데이터 기반 부동산 분석</title>
+  <style>
+    :root { --navy:#10243e; --blue:#2366bd; --pale:#eef5fc; --text:#25344a; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif; color:var(--text); background:#f6f9fd; line-height:1.7; }
+    header { background:linear-gradient(120deg,#10243e,#1b4d82); color:#fff; padding:34px 24px; }
+    .header-inner { max-width:1100px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    .brand { margin:0; font-size:clamp(25px,4vw,36px); letter-spacing:-1px; }
+    .phone { color:#fff; font-size:19px; font-weight:700; text-decoration:none; white-space:nowrap; }
+    .phone:hover { text-decoration:underline; }
+    main { max-width:1100px; margin:0 auto; padding:68px 24px 90px; }
+    .intro { background:white; padding:clamp(28px,5vw,60px); border-radius:22px; box-shadow:0 12px 38px rgba(16,36,62,.07); }
+    .eyebrow { color:var(--blue); font-weight:800; font-size:14px; letter-spacing:2px; }
+    h2 { font-size:clamp(26px,4vw,38px); line-height:1.4; color:var(--navy); margin:12px 0 25px; letter-spacing:-1px; }
+    .intro p { font-size:17px; margin:0 0 18px; }
+    .intro strong { color:#1659a4; }
+    .section-heading { margin:48px 0 20px; font-size:23px; color:var(--navy); }
+    .buttons { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .button { min-height:112px; display:flex; align-items:center; justify-content:center; text-align:center; padding:16px; border-radius:16px; background:var(--blue); color:white; font-size:19px; font-weight:800; text-decoration:none; box-shadow:0 8px 20px rgba(35,102,189,.17); transition:transform .2s,background .2s; }
+    .button:hover { transform:translateY(-4px); background:#174c91; }
+    .button.disabled { background:#dce5ef; color:#60728b; box-shadow:none; cursor:default; }
+    .button.disabled:hover { transform:none; }
+    footer { text-align:center; padding:25px; background:var(--navy); color:#d6e2f0; font-size:14px; }
+    @media (max-width:600px) { .header-inner { flex-direction:column; align-items:flex-start; } .buttons { gap:8px; } .button { font-size:13px; min-height:88px; padding:8px 5px; border-radius:11px; } main { padding-top:35px; } .intro p { font-size:15px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="brand">나누리 공인중개사</h1>
+      <a class="phone" href="tel:01050960212" aria-label="전화 걸기 010-5096-0212">☎ 010-5096-0212</a>
+    </div>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="eyebrow">SMART REAL ESTATE ANALYTICS</div>
+      <h2 id="intro-title">데이터로 분석하고, AI로 미래를 읽는<br>부동산 전문 파트너</h2>
+      <p><strong>나누리 공인중개사</strong>는 부동산 빅데이터 전문가와 GIS(지리정보시스템) 빅데이터 전문가의 분석 역량을 바탕으로, 감에 의존하지 않는 객관적이고 체계적인 부동산 정보를 제공합니다.</p>
+      <p>부동산 실거래 데이터, 지역별 거주인구, 입지 및 공간정보를 종합적으로 살펴보고, <strong>뛰어난 AI 활용 역량</strong>을 접목해 복잡한 데이터를 이해하기 쉬운 인사이트로 바꿉니다.</p>
+      <p>정교한 데이터 분석과 현장 중심의 부동산 전문성을 결합하여, 고객이 보다 합리적이고 자신 있는 선택을 할 수 있도록 돕겠습니다.</p>
+    </section>
+    <section aria-labelledby="service-title">
+      <h2 class="section-heading" id="service-title">데이터 분석 서비스</h2>
+      <nav class="buttons" aria-label="분석 서비스 바로가기">
+        <a class="button" href="realtrade.html">부동산 실거래 분석</a>
+        <a class="button" href="pop.thml">거주인구 분석</a>
+        <span class="button disabled" aria-label="세 번째 서비스 준비 중">서비스 준비 중</span>
+      </nav>
+    </section>
+  </main>
+  <footer>© 2026 나누리 공인중개사. All rights reserved.</footer>
+</body>
+</html>
